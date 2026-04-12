@@ -1,0 +1,12 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Pytest
+.pytest_cache/
+
+# Ruff
+.ruff_cache/
+
+#Json 
+data/medications.json
