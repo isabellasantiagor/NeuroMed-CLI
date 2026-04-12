@@ -6,6 +6,11 @@ O NeuroMed CLI é uma aplicação de linha de comando desenvolvida para o auxíl
 
 Pessoas que tomam múltiplos medicamentos diários podem enfrentar dificuldades em manter a regularidade no seu uso. Isso pode acontecer pela condição que a faz ter uma memória impactada ou até mesmo por condições de saúde ou idade. E isso ocasiona esquecimentos, atrasos ou uso incorreto, impactando diretamente a saúde e qualidade de vida.
 
+
+## Visualização do CLI
+
+![Demonstração](ezgif.com-speed.gif)
+
 ## Qual problema estou tentando resolver? 
 
 A falta de controle ou dificuldade para monitoramento de medicamentos diários ou não necessários para a saúde do usuário.
