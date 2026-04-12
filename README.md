@@ -13,7 +13,7 @@ Pessoas que tomam múltiplos medicamentos diários podem enfrentar dificuldades 
 
 ## Qual problema estou tentando resolver? 
 
-A falta de controle ou dificuldade para monitoramento de medicamentos diários ou não necessários para a saúde do usuário.
+A falta de controle ou dificuldade para monitoramento de medicamentos diários e necessários para a saúde do usuário.
 
 ## Público-alvo (Quem é afetado por esse problema?)
 
@@ -70,7 +70,7 @@ pip install -r requirements.txt
 python -m app.main
 ```
 ## Intruções para rodar os testes:
-
+ > Lembre-se de voltar para a pasta do projeto para realizar os testes
   1. Execute:
 
 ```bash
