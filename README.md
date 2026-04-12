@@ -1,5 +1,7 @@
 # == NeuroMed CLI ==
 
+![CI](https://github.com/isabellasantiagor/NeuroMed-CLI/actions/workflows/ci.yml/badge.svg)
+
 O NeuroMed CLI é uma aplicação de linha de comando desenvolvida para o auxílio no monitoramento e controle de medicamentos importantes para a saúde do usuário. 
 
 Pessoas que tomam múltiplos medicamentos diários podem enfrentar dificuldades em manter a regularidade no seu uso. Isso pode acontecer pela condição que a faz ter uma memória impactada ou até mesmo por condições de saúde ou idade. E isso ocasiona esquecimentos, atrasos ou uso incorreto, impactando diretamente a saúde e qualidade de vida.
@@ -47,6 +49,46 @@ Esse arquivo é criado automaticamente ao executar o sistema pela primeira vez.
 - Ter o Git configurado;
 
 2. Instalação e Configuração
+  1. Clone o repositório
+
+```bash
+git clone https://github.com/isabellasantiagor/NeuroMed-CLI.git
+cd NeuroMed-CLI
+```
+  2. Instale as dependências
+```bash
+pip install -r requirements.txt
+```
+## Instruções de execução:
+  1. Execute o sistema com:
+```bash
+python -m app.main
+```
+## Intruções para rodar os testes:
+
+  1. Execute:
+
+```bash
+pytest -v
+```
+## Instruções para rodar o lint
+
+Execute:
+
+```bash
+ruff check .
+```
+
+## Versão atual: 1.0.0
+
+## Autor: 
+Isabella Santiago.
+
+## Repositório
+
+- Disponível em:
+
+https://github.com/isabellasantiagor/NeuroMed-CLI
 
 
 
