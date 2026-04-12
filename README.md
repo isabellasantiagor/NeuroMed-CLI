@@ -54,7 +54,7 @@ Esse arquivo é criado automaticamente ao executar o sistema pela primeira vez.
 - Ter o Git configurado;
 
 2. Instalação e Configuração
-  1. Clone o repositório
+  1. Clone o repositório e entre na pasta do projeto
 
 ```bash
 git clone https://github.com/isabellasantiagor/NeuroMed-CLI.git
