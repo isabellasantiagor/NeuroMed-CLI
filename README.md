@@ -32,6 +32,21 @@ O NeuroMed CLI é uma aplicação simples em Python com interface de linha de co
 - Remoção de medicamentos
 - Validação de dados (horário, dosagem, duplicidade)
 - Persistência de dados em arquivo JSON
+- Consulta pública de informações de medicamentos via API OpenFDA
+
+## Integração com API Pública
+
+O NeuroMed CLI utiliza a API pública OpenFDA para consultar informações básicas de medicamentos.
+
+A funcionalidade permite buscar informações consultivas sobre medicamentos utilizando nomes internacionais, como:
+
+- Tylenol
+- Advil
+- Aspirin
+
+> Observaçóes:
+
+> As informações retornadas possuem caráter apenas informativo e não substituem orientação médica, farmacêutica ou leitura da bula oficial.
 
 ## Tecnologias utilizadas
 
@@ -40,6 +55,7 @@ O NeuroMed CLI é uma aplicação simples em Python com interface de linha de co
 - Testes automatizados: Pytest;
 - Lint/ Análise estática: Ruff;
 - Armazenamento de dados: JSON
+- Consumo de API REST pública (OpenFDA)
 
 > Observação: 
 
@@ -84,7 +100,7 @@ Execute:
 ruff check .
 ```
 
-## Versão atual: 1.0.0
+## Versão atual: 2.0.0
 
 ## Autor: 
 Isabella Santiago.
