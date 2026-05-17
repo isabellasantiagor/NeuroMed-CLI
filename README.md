@@ -111,5 +111,9 @@ Isabella Santiago.
 
 https://github.com/isabellasantiagor/NeuroMed-CLI
 
+## Release atual
+
+https://github.com/isabellasantiagor/NeuroMed-CLI/releases/tag/v2.0.0
+
 
 
