@@ -1,4 +1,5 @@
 from app.medication import MedicationManager
+from app.medicine_info import search_medicine_info
 
 
 def input_with_back(message):
@@ -18,6 +19,7 @@ def main():
         print("2 - Listar medicamentos cadastrados")
         print("3 - Remover medicamento cadastrado")
         print("4 - Sair")
+        print("5 - Buscar informações de medicamento")
 
         choice = input("Escolha: ")
 
@@ -73,7 +75,33 @@ def main():
                 print("Medicamento removido com sucesso!")
             except ValueError as e:
                 print(f"Erro: {e}")
+        # Escolha 05
+        elif choice == "5":
+            print("Digite 0 para voltar ao menu principal")
 
+            medicine_name = input_with_back("Nome do medicamento: ")
+
+            if medicine_name is None:
+                continue
+
+            info = search_medicine_info(medicine_name)
+
+            if info:
+                print("\nInformações encontradas:")
+                print(f"Medicamento pesquisado: {info['name']}")
+                print(f"Finalidade: {info['purpose']}")
+                print(f"Fonte: {info['source']}")
+
+                print(
+                    "\nAviso: informação apenas consultiva. "
+                    "Não substitui orientação médica ou farmacêutica."
+                )
+
+            else:
+                print(
+                    "Nenhuma informação encontrada para este medicamento. "
+                    "Tente nomes internacionais como Tylenol, Advil ou Aspirin."
+                )
         # Escolha 04
         elif choice == "4":
             print("Saindo...")
