@@ -1,6 +1,7 @@
 # == NeuroMed CLI ==
 
 ![CI](https://github.com/isabellasantiagor/NeuroMed-CLI/actions/workflows/ci.yml/badge.svg)
+API PÚBLICA USADA: OpenFDA API - https://open.fda.gov/apis/drug/label/
 
 O NeuroMed CLI é uma aplicação de linha de comando desenvolvida para o auxílio no monitoramento e controle de medicamentos importantes para a saúde do usuário. 
 
@@ -9,7 +10,7 @@ Pessoas que tomam múltiplos medicamentos diários podem enfrentar dificuldades 
 
 ## Visualização do CLI
 
-![Demonstração](ezgif.com-speed.gif)
+![Demonstração](gif2.gif)
 
 ## Qual problema estou tentando resolver? 
 
@@ -44,9 +45,9 @@ A funcionalidade permite buscar informações consultivas sobre medicamentos uti
 - Advil
 - Aspirin
 
-> Observaçóes:
+**> Observação:**
 
-> As informações retornadas possuem caráter apenas informativo e não substituem orientação médica, farmacêutica ou leitura da bula oficial.
+**> As informações retornadas possuem caráter apenas informativo e não substituem orientação médica, farmacêutica ou leitura da bula oficial.**
 
 ## Tecnologias utilizadas
 
@@ -98,6 +99,14 @@ Execute:
 
 ```bash
 ruff check .
+```
+
+## Exemplo de uso da integração com API
+
+Ao executar o sistema, escolha a opção:
+
+```text
+5 - Buscar informações de medicamento
 ```
 
 ## Versão atual: 2.0.0
